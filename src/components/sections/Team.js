@@ -111,10 +111,14 @@ const Position = styled.h2`
   color: ${(props) => `rgba(${props.theme.textRgba}, 0.9)`};
   font-weight: 400;
 `;
-const onClick = (link) =>{
-  window.open(link, "_blank");
-}
+
 const MemberComponent = ({ img, name = " ", position = " " , link =""}) => {
+  const onClick = () =>{
+    if(link !== ""){
+      window.open(link, "_blank");
+
+    }
+  }
   return (
     <Item>
       <ImageContainer>

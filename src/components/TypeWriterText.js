@@ -79,7 +79,7 @@ const TypeWriterText = () => {
   return (
     <>
       <Title>
-        Discover a new era of cool
+      Browser Based Multiplayer Nft Game
         <Typewriter
           options={{
             autoStart: true,
@@ -87,10 +87,10 @@ const TypeWriterText = () => {
           }}
           onInit={(typewriter) => {
             typewriter
-              .typeString("<span class='text-1'>NFTs.</span>")
+              .typeString("<span class='text-1'>FUN</span>")
               .pauseFor(2000)
               .deleteAll()
-              .typeString("<span class='text-2'>Collectible Items.</span>")
+              .typeString("<span class='text-2'>Play with friends</span>")
               .pauseFor(2000)
               .deleteAll()
               .typeString("<span class='text-3'>Nft game</span>")
@@ -100,7 +100,8 @@ const TypeWriterText = () => {
           }}
         />
       </Title>
-      <SubTitle>Browser based multiplayer nft game</SubTitle>
+      {/* <SubTitle>Browser based multiplayer nft game</SubTitle> */}
+      <br/>
       <ButtonContainer>
         <Button text="Explore" link="#about" />
       </ButtonContainer>
