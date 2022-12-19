@@ -1,10 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
-import img1 from "../../assets/Nfts/bighead.svg";
-import img2 from "../../assets/Nfts/bighead-1.svg";
+
 import img3 from "../../assets/Nfts/bighead-2.svg";
-import img4 from "../../assets/Nfts/bighead-3.svg";
 import img5 from "../../assets/Nfts/bighead-4.svg";
 import img6 from "../../assets/Nfts/bighead-5.svg";
 import img7 from "../../assets/Nfts/bighead-6.svg";
@@ -113,12 +111,14 @@ const Position = styled.h2`
   color: ${(props) => `rgba(${props.theme.textRgba}, 0.9)`};
   font-weight: 400;
 `;
-
-const MemberComponent = ({ img, name = " ", position = " " }) => {
+const onClick = (link) =>{
+  window.open(link, "_blank");
+}
+const MemberComponent = ({ img, name = " ", position = " " , link =""}) => {
   return (
     <Item>
       <ImageContainer>
-        <img src={img} alt={name} />
+        <img src={img}  onClick={onClick} alt={name} />
       </ImageContainer>
       <Name>{name}</Name>
       <Position>{position}</Position>
@@ -135,12 +135,13 @@ const Team = () => {
         <MemberComponent img={img7} name="LINFORD" position="Founder" />
         <MemberComponent img={img8} name="MICHAEL" position="Co-Founder" />
         <MemberComponent img={img3} name="DJIBESS" position="Game Developer" />
-        <MemberComponent img={img9} name="LazyDevPro " position="Contract Developer" />
-        <MemberComponent img={img5} name="Adioxite " position="Collab Manage" />
+        <MemberComponent img={img9} name="LazyDevPro " position="Contract Developer" link="https://twitter.com/lazydevpro " />
+        <MemberComponent img={img5} name="Adioxite " position="Collab Manage"  link="https://twitter.com/Adioxite"/>
         <MemberComponent
           img={img6}
           name="Array "
           position="Auditor ( Dev )"
+          link="https://twitter.com/ArrayTheDev"
         />
         {/* <MemberComponent
           img={img7}

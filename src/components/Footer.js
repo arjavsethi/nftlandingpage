@@ -133,34 +133,35 @@ const Footer = () => {
         <Left>
           <Logo />
           <IconList>
-            <a
+            {/* <a
               href="https://facebook.com"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Facebook />
-            </a>
-            <a
+            </a> */}
+            {/* <a
               href="https://instagram.com"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Instagram />
-            </a>
+            </a> */}
             <a
-              href="https://twitter.com"
+              href="https://twitter.com/Monstrous_NFT"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Twitter />
             </a>
-            <a
+         
+            {/* <a
               href="https://linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
             >
               <LinkedIn />
-            </a>
+            </a> */}
           </IconList>
         </Left>
         <MenuItems>

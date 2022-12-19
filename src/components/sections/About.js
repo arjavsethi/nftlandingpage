@@ -165,7 +165,7 @@ const About = () => {
           </SubTextLight>
           <ButtonContainer>
             <ThemeProvider theme={dark}>
-              <Button text="JOIN OUR DISCORD" link="#" />
+              <Button text="JOIN OUR TWITTER" link="https://twitter.com/Monstrous_NFT" />
             </ThemeProvider>
           </ButtonContainer>
         </Box>

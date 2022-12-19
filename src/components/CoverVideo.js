@@ -14,14 +14,14 @@ const VideoContainer = styled.div`
     min-width: 40vh;
   }
 `;
-const toggleMute = () => {
-  const video = document.querySelector("video");
-  video.muted = !video.muted;
-};
+// const toggleMute = () => {
+//   const video = document.querySelector("video");
+//   video.muted = !video.muted;
+// };
 const CoverVideo = () => {
   return (
     <VideoContainer>
-      <video src={GIF} type="video/mp4" autoPlay  loop  onClick={toggleMute}/>
+      <video src={GIF} type="video/mp4" controls/>
     </VideoContainer>
   );
 };
