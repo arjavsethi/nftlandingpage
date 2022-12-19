@@ -174,7 +174,7 @@ const Footer = () => {
       </Container>
       <Bottom>
         <span>
-          &copy; {new Date().getFullYear()} Weirdos Club. All rights reserved.
+          &copy; {new Date().getFullYear()} Monster Club. All rights reserved.
         </span>
         
       </Bottom>

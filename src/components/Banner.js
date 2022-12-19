@@ -66,7 +66,7 @@ const ImgContainer = styled.div`
 `;
 
 const Title = styled.h1`
-  font-size: ${(props) => props.theme.fontxxxl};
+  font-size: ${(props) => props.theme.fontxxl};
   color: ${(props) => props.theme.body};
   padding: 1rem 2rem;
   z-index: 10;
@@ -157,7 +157,7 @@ const Banner = () => {
         <img src={img6} alt="The Weirdos" /> */}
       </ImgContainer>
       <Title>
-        Join the <br /> Monster club
+        Join <br />Monstrous Club
       </Title>
       <BtnContainer>
         <JoinNow>join now</JoinNow>

@@ -69,8 +69,8 @@ const Row = styled.div`
 const ImgContainer = styled.div`
   width: 15rem;
   margin: 0 1rem;
-  background-color: ${(props) => props.theme.body};
-
+  background-color: #202020;
+  
   border-radius: 20px;
   cursor: pointer;
 
@@ -138,20 +138,7 @@ const NftItem = ({ img, number = 0, price = 0, passRef }) => {
   return (
     <ImgContainer onMouseOver={(e) => pause(e)} onMouseOut={(e) => play(e)}>
       <img src={img} alt="The Weirdos" />
-      <Details>
-        <div>
-          <span>Weirdos</span> <br />
-          <h1>#{number}</h1>
-        </div>
-
-        <div>
-          <span>Price</span>
-          <Price>
-            <img src={ETH} alt="ETH" />
-            <h1>{Number(price).toFixed(1)}</h1>
-          </Price>
-        </div>
-      </Details>
+     
     </ImgContainer>
   );
 };

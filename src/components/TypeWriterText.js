@@ -93,14 +93,14 @@ const TypeWriterText = () => {
               .typeString("<span class='text-2'>Collectible Items.</span>")
               .pauseFor(2000)
               .deleteAll()
-              .typeString("<span class='text-3'>Ape Killers!</span>")
+              .typeString("<span class='text-3'>Nft game</span>")
               .pauseFor(2000)
               .deleteAll()
               .start();
           }}
         />
       </Title>
-      <SubTitle>Bored Of Apes? Try Something New.</SubTitle>
+      <SubTitle>Browser based multiplayer nft game</SubTitle>
       <ButtonContainer>
         <Button text="Explore" link="#about" />
       </ButtonContainer>

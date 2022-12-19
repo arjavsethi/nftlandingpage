@@ -91,23 +91,15 @@ const Faq = () => {
       <Title>FAQ</Title>
       <Container>
         <Box>
-          <Accordion title="WHERE CAN I VIEW MY NFTS?">
+          <Accordion title="Where can I view my nfts?">
             Once minted or bought simply connect to your OpenSea account to view
             your NFTs.
           </Accordion>
-          <Accordion title="WHAT IS THE METAVERSE?">
-            A metaverse is a network of 3D virtual worlds focused on social
-            connection. In futurism and science fiction, it is often described
-            as a hypothetical iteration of the Internet as a single, universal
-            virtual world that is facilitated by the use of virtual and
-            augmented reality headsets.
+          <Accordion title="What's the mint price?">
+            The mint price of 222 are free and 2000 at 0.019 ETH per NFT.
           </Accordion>
-          <Accordion title="WHY DO WE NEED ROYALTIES?">
-            The amount of royalties was fixed at 5% to finance the Weirdos
-            Club's projects. We have the ambition to organize multiple events
-            around the world in order to strengthen the community and build a
-            network of entrepreneurs and investors with the same mindset and
-            common interests.
+          <Accordion title="How do i mint?">
+          With the help of Metamask wallet you can mint the NFTs. 
           </Accordion>
         </Box>
         <Box>
@@ -116,17 +108,11 @@ const Faq = () => {
             our future video game. Holding also means that you are part of an
             exclusive network of investors and entrepreneurs.
           </Accordion>
-          <Accordion title="WHAT ARE THE WEIRDOS?">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore
-            deserunt consequatur quisquam maxime molestias dolores ipsum,
-            exercitationem vel sint quidem aliquam modi quis impedit corporis
-            unde inventore fugiat provident in.
-          </Accordion>
-          <Accordion title="WHAT IS THE FUSION PROCESS?">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim
-            veritatis iusto officia. Exercitationem, ducimus reiciendis. Rem,
-            maxime, similique neque minus aliquam dolore doloremque laboriosam,
-            facilis quibusdam unde sint officia.
+            <Accordion title="Where can i ask more questions about nfts?">
+              You can ask more questions about NFTs on our discord server. Or you can ask on our twitter handle.
+            </Accordion>
+          <Accordion title="What is NFT?">
+          NFT means non-fungible tokens (NFTs), which are generally created using the same type of programming used for cryptocurrencies. In simple terms these cryptographic assets are based on blockchain technology. They cannot be exchanged or traded equivalently like other cryptographic assets
           </Accordion>
         </Box>
       </Container>
