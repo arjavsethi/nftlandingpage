@@ -157,7 +157,7 @@ const Banner = () => {
         <img src={img6} alt="The Weirdos" /> */}
       </ImgContainer>
       <Title>
-        Join <br />Monstrous Club
+        Join  <br />Monstrous club
       </Title>
       <BtnContainer>
         <JoinNow>join now</JoinNow>
